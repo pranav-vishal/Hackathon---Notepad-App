@@ -1,0 +1,25 @@
+Topic: Create a notepad app
+
+Features: 
+1. User can make a note
+2. User can make some text bold / underlined
+3. User can copy all text by click of a button
+4. User can see the list of notes made by user
+5. User can create a new note and can switch between notes
+
+
+TODO:
+
+#1 -  Basic HTML Outline for the App
+
+#2 -  Basic CSS for the app
+
+#3 -  Note Taking Functionality:
+Take Input ( Text box )
+
+#4 -  Text Effect:
+Event listeners on selected text
+Button to apply the desired Effect
+
+#5 -   Copy all Text:
+Copy Text Button: Selects text box and copy
