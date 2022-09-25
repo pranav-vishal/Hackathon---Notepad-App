@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="notepad.js"></script>
+  <title>Notepad App</title>
+</head>
+
+<body>
+  <h1>Notepad App</h1>
+  <textarea name="name" id="textarea1" rows="15" cols="100" placeholder="Type in your text here"></textarea>
+  <br />
+
+  <div class="functions">
+    <button id="bold" onclick="boldtext()">Bold</button>
+    <button id="under" onclick="under()">Underline</button>
+    <button id="italic" onclick="italic()">Italic</button>
+    <button id="copy" onclick="copy()">Copy</button>
+    <button onclick="document.getElementById('textarea1').value = '';">Clear Text</button>
+  </div>
+
+</body>
+
+</html>
