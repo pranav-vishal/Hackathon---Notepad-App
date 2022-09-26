@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 50px 70px;
   background-color: rgb(192, 235, 184);
   text-align: center;
 }
@@ -8,16 +8,18 @@ h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-textarea {
-  margin: 10px 30px;
-  width: 80%;
-  background-color: rgb(223, 219, 219);
-  font-size: 20px;
+.content {
+  margin-top: 15px;
+  padding: 20px;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+  min-height: 300px;
+  outline: None;
+  font-size: 1.5em;
+  background-color: aliceblue;
 }
 
 .functions {
   margin: 0 auto;
-  width: 80%;
   display: flex;
 }
 

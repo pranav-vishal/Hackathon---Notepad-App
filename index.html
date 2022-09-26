@@ -5,20 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <script src="notepad.js"></script>
+    <script src="notepad.js" defer></script>
     <title>Notepad App</title>
   </head>
   <body>
     <h1>Notepad App</h1>
-    <textarea name="" id="" cols="70" rows="20" placeholder="Type in your text here"></textarea>
-    <br />
 
     <div class="functions">
-        <button id="bold">Bold</button>
-        <button id="under">Underline</button>
-
-        <button id="copy">Copy</button>
+      <button id="bold-btn">Bold</button>
+      <button id="underline-btn">Underline</button>
+      <button id="copy-btn">Copy Text</button>
     </div>
 
+    <div class="content" contenteditable="true" align="left">
+this is what a note looks like.
+    </div>
   </body>
 </html>
